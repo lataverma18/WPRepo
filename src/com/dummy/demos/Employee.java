@@ -30,6 +30,11 @@ public class Employee {
 	public void setEmpSalary(int empSalary) {
 		this.empSalary = empSalary;
 	}
-	
-
+	public Employee(int empId, String empName, int empSalary, String empDept) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.empSalary = empSalary;
+		this.empDept = empDept;
+	}
 }
