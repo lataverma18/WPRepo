@@ -5,7 +5,14 @@ public class Employee {
 	private String empName;
 	private int empSalary;
 	private String empDept;
+	private int empPhone;
 	
+	public int getEmpPhone() {
+		return empPhone;
+	}
+	public void setEmpPhone(int empPhone) {
+		this.empPhone = empPhone;
+	}
 	public String getEmpDept() {
 		return empDept;
 	}
@@ -37,4 +44,14 @@ public class Employee {
 		this.empSalary = empSalary;
 		this.empDept = empDept;
 	}
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empSalary=" + empSalary + ", empDept=" + empDept
+				+ "]";
+	}
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 }
