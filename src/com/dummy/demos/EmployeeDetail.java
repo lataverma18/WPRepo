@@ -1,6 +1,6 @@
 package com.dummy.demos;
 
-public class Employee {
+public class EmployeeDetail {
 	private int empId;
 	private String empName;
 	private int empSalary;
@@ -37,7 +37,7 @@ public class Employee {
 	public void setEmpSalary(int empSalary) {
 		this.empSalary = empSalary;
 	}
-	public Employee(int empId, String empName, int empSalary, String empDept) {
+	public EmployeeDetail(int empId, String empName, int empSalary, String empDept) {
 		super();
 		this.empId = empId;
 		this.empName = empName;
@@ -49,7 +49,7 @@ public class Employee {
 		return "Employee [empId=" + empId + ", empName=" + empName + ", empSalary=" + empSalary + ", empDept=" + empDept
 				+ "]";
 	}
-	public Employee() {
+	public EmployeeDetail() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
